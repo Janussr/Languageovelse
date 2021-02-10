@@ -16,7 +16,7 @@ public class Main {
 
             if(getString("change language ?").equalsIgnoreCase("y")) {
 
-                dialog = sprog.SkiftSprog(getString("da / eng / swe"));
+                dialog = sprog.SkiftSprog(getString("da / eng / swe / fr"));
 
             }
             System.out.println(dialog.selectedLanguage() + " " + dialog.getLanguage());
