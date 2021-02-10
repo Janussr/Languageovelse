@@ -11,11 +11,10 @@ public class French implements Dialog{
 
     @Override
     public String quit() {
-        return null;
+        return "appuyez sur q pour quitter ";
     }
 
     @Override
-    public String selectedLanguage() {
-        return null;
+    public String selectedLanguage() { return "la langue sélectionnée est ";
     }
 }
