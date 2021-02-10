@@ -16,6 +16,7 @@ public class Sprog  {
         dialoger.put("swe", new Svensk());
         dialoger.put("de", new Tysk());
         dialoger.put("fr", new French());
+        dialoger.put("ar", new Arabic());
 
 
     }
