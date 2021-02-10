@@ -15,5 +15,5 @@ public class Svensk implements Dialog{
     }
 
     @Override
-    public String selectedLanguage() { return " valda språket är "; }
+    public String selectedLanguage() { return "det valda språket är "; }
 }

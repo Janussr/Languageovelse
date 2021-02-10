@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
 
         Dialog dialog = new English();
 
@@ -17,7 +16,8 @@ public class Main {
             if(getString("change language ?").equalsIgnoreCase("y")) {
 
 
-                dialog = sprog.SkiftSprog(getString("da / eng / swe / de /fr"));
+
+                dialog = sprog.SkiftSprog(getString(sprog.getAllLanguage()));
 
 
 
