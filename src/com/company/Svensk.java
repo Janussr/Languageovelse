@@ -1,7 +1,8 @@
 package com.company;
 
 public class Svensk implements Dialog{
-    private String s = "swedish";
+    private String s = "swedishhzz.";
+
 
     @Override
     public String getLanguage() {
